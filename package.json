@@ -1,0 +1,12 @@
+{
+  "name": "Facenet-Real-time-face-recognition-using-deep-learning-Tensorflow-master",
+  "version": "1.0.0",
+  "description": "This is completly based on deep learning nueral network and implented using Tensorflow framework. Here you will get how to implement fastly and you can find code at github and uses is demonstrated at YouTube.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
