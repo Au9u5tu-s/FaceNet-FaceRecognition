@@ -1,7 +1,3 @@
-Here's a revised README file tailored to your project, "Face Recognition and Attendance System":
-
----
-
 # Face Recognition and Attendance System
 
 This project implements a deep learning-based face recognition and attendance system using TensorFlow and Flask. Developed as part of the MSc Big Data Analytics program at AIMIT, St. Aloysius College, Mangalore, the system enhances physical security and automates attendance recording.
@@ -103,5 +99,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Dean**: Prof Santhosh Rebello
 
 ---
-
-Feel free to further customize this README to better fit your project's specifics and style.
