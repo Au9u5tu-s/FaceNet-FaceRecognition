@@ -1,7 +1,10 @@
+Here's a revised README file tailored to your project, "Face Recognition and Attendance System":
 
-# FaceNet-FaceRecognition
+---
 
-A real-time face recognition system using deep learning with TensorFlow. This project implements the FaceNet paper for face recognition and clustering.
+# Face Recognition and Attendance System
+
+This project implements a deep learning-based face recognition and attendance system using TensorFlow and Flask. Developed as part of the MSc Big Data Analytics program at AIMIT, St. Aloysius College, Mangalore, the system enhances physical security and automates attendance recording.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -9,19 +12,23 @@ A real-time face recognition system using deep learning with TensorFlow. This pr
 - [Installation](#installation)
 - [Usage](#usage)
 - [File Descriptions](#file-descriptions)
+- [Methodology](#methodology)
+- [System Design](#system-design)
+- [Testing](#testing)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
-FaceNet is a deep learning model developed by Google for face recognition and clustering. This repository implements the FaceNet model using TensorFlow for real-time face recognition tasks.
+The Face Recognition and Attendance System is designed to identify individuals and record their attendance automatically. It uses the FaceNet model architecture within a TensorFlow environment, leveraging deep convolutional neural networks for high-accuracy facial recognition. 
 
 ## Features
 - Real-time face detection and recognition
+- Automated attendance recording
 - High accuracy using deep learning
-- Preprocessing and data augmentation
-- Easy-to-use interface for training and testing
+- Unauthorized person detection and alert system
+- Weekly visualizations of attendance data
 
 ## Installation
 1. Clone the repository:
@@ -68,8 +75,19 @@ FaceNet is a deep learning model developed by Google for face recognition and cl
 - `requirements.txt`: List of required packages.
 - `README.md`: Project documentation.
 
+## Methodology
+The project follows an Agile methodology, ensuring iterative development and continuous collaboration with stakeholders. The neural network is trained using TensorFlow, and Flask is used for the web application interface.
+
+## System Design
+The system comprises two main modules:
+- **Face Recognition Module**: Detects and identifies individuals, retrieving their details from the database.
+- **Attendance Module**: Scans faces to record attendance, updating the database and generating visualizations.
+
+## Testing
+The system undergoes multiple levels of testing, including unit testing, integration testing, system testing, and performance testing to ensure robustness and reliability.
+
 ## Results
-Include images, videos, or any other form of results here that demonstrate the performance and accuracy of the model.
+The system successfully identifies authorized personnel and records attendance with high accuracy. Unauthorized persons are detected and alerts are generated. The attendance data is visualized weekly.
 
 ## Contributing
 Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) for more details.
@@ -78,9 +96,12 @@ Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTIN
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
-- The FaceNet paper: [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832)
-- TensorFlow: [TensorFlow](https://www.tensorflow.org/)
+- **Project Guide**: Mrs. Laveena C Crasta
+- **Internship Organization**: iHub IT Solutions, Mangalore
+- **Principal**: Rev. Dr. Praveen Martis SJ
+- **Director**: Rev. Fr. Melwyn Pinto SJ
+- **Dean**: Prof Santhosh Rebello
 
 ---
 
-Feel free to customize this README to better suit the specifics of your project.
+Feel free to further customize this README to better fit your project's specifics and style.
